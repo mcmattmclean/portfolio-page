@@ -1,0 +1,57 @@
+/** {
+  border: 1px solid red;
+}*/
+
+/*.introduction {
+  background-image: url("sanfran.jpeg");
+  background-color: red;
+}*/
+
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+}
+
+.main-splash {
+  font-size: 5em;
+  font-family: Raleway, sans-serif;
+  color: white;
+  padding-top: 3em;
+}
+
+.sub-splash {
+  color: black;
+  padding-top: 1em;
+}
+
+body {
+  padding-top: 30px;
+}
+
+html, body {
+  height: 100%;
+}
+
+div.first, div.second, div.third, div.fourth {
+  width: 100%;
+  height: 100%;
+}
+
+div.first {
+  background-image: url("sanfran.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+div.second {
+  background-image: url("streets.jpg");
+  background-size: cover;
+}
+div.third {
+  background-image: url("lombard.jpg");
+  background-size: cover;
+}
+div.fourth {
+  background-image: url("streets.jpg");
+  background-size: cover;
+}
